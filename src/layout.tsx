@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "An agentic taste-to-space pipeline that turns the movies, music, places and aesthetics you love into a lighting design for the room you live in.",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
       lang="en"

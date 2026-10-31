@@ -3,6 +3,6 @@ services:
     name: ambient-architect
     env: node
     plan: free
+    root-directory: .
     buildCommand: npx next build
     startCommand: npx next start
-    # The service runs from the repo root directory

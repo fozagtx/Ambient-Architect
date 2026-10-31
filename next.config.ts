@@ -11,7 +11,6 @@ const nextConfig: NextConfig = {
         as: "*.css",
       },
     },
-    root: ".",
   },
 };
 
