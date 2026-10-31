@@ -3,5 +3,5 @@ services:
     name: ambient-architect
     env: node
     plan: free
-    buildCommand: npm run build
-    startCommand: npm start
+    buildCommand: npx next build
+    startCommand: npx next start
