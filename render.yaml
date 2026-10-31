@@ -5,3 +5,5 @@ services:
     plan: free
     buildCommand: npx next build
     startCommand: npx next start
+    # Set the service to run from the repo root
+    # Root: . (default, can be explicit)
